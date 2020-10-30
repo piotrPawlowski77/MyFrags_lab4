@@ -17,10 +17,6 @@ import java.util.List;
 
 public class MainActivity extends FragmentActivity implements Fragment1.OnButtonClickListener {
 
-//    private FragmentManager fragmentManager;
-//
-//    private Fragment fragment1, fragment2, fragment3, fragment4;
-
     private int[] frames;
     private boolean hiden;
 
@@ -53,22 +49,6 @@ public class MainActivity extends FragmentActivity implements Fragment1.OnButton
             frames = savedInstanceState.getIntArray("FRAMES");
             hiden = savedInstanceState.getBoolean("HIDEN");
         }
-
-//        fragment1 = new Fragment1();
-//        fragment2 = new Fragment2();
-//        fragment3 = new Fragment3();
-//        fragment4 = new Fragment4();
-//
-//        fragmentManager = getSupportFragmentManager();
-//
-//        FragmentTransaction transaction = fragmentManager.beginTransaction();
-//        transaction.add(R.id.frame1, fragment1);
-//        transaction.add(R.id.frame2, fragment2);
-//        transaction.add(R.id.frame3, fragment3);
-//        transaction.add(R.id.frame4, fragment4);
-//
-//        transaction.addToBackStack(null);
-//        transaction.commit();
 
     }
 
